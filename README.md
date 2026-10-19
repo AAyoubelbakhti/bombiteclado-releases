@@ -6,7 +6,7 @@ Este repositorio solo guarda las versiones publicadas: el APK y las tablas brail
 
 ## Instalar
 
-1. En [la última versión](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest), descarga `bombiteclado-<versión>.apk`.
+1. Descarga [bombiteclado.apk](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest/download/bombiteclado.apk), que es siempre la última versión.
 2. Ábrelo en el móvil. Si Android lo pide, permite instalar apps desde esa fuente.
 3. Abre BombiTeclado: la bienvenida guía para activarlo y elegirlo.
 
@@ -21,7 +21,7 @@ BombiTeclado trae dos esquemas de gestos. En la app, en Ajustes › Gestos, se e
 - **Como TalkBack** (predeterminado): los deslizamientos cuentan los dedos, sean cuales sean, como el teclado braille de TalkBack.
 - **Como ABK** (Advanced Braille Keyboard): importa desde qué punto se desliza. «Desde el punto 4» quiere decir que el dedo que desliza empieza en el punto 4, y «mantener 1», que el punto 1 se queda apoyado mientras otro dedo desliza. El modo acción de ABK es aquí el modo edición. No incluye las pulsaciones largas ni otras funciones propias de ABK.
 
-En los dos, para calibrar, apoya todos los dedos dos segundos. Los gestos de tres dedos y el de ocultar el teclado, dos dedos abajo, funcionan en todos los modos. En el modo navegación, cada acorde es una tecla del ordenador, con la tabla de braille informático, y lleva los modificadores fijados; «mantener los modificadores fijados» los deja apretados para varias teclas, como Alt mientras se pulsa Tab o Insert para NVDA, hasta soltarlos.
+En los dos, para calibrar, apoya todos los dedos dos segundos. Los gestos de tres dedos y el de ocultar el teclado, dos dedos abajo, funcionan en todos los modos. En el modo navegación, cada gesto es una sola tecla o un modificador, y cada acorde, una tecla del ordenador con la tabla de braille informático. Las combinaciones se hacen fijando los modificadores para la tecla siguiente, como Mayúsculas y luego Tab; «mantener los modificadores fijados» los deja apretados para varias teclas, como Alt mientras se pulsa Tab o Insert para NVDA, hasta soltarlos.
 
 En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el nombre o en las palabras clave de cada emoji, sin distinguir mayúsculas ni tildes. La lista se filtra con cada letra y dice cuántos emojis hay y cuál es el primero.
 
@@ -178,23 +178,23 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 | fin | mantener 4, un dedo a la derecha | mantener 4, un dedo a la derecha |
 | retroceder página | mantener 4, un dedo arriba | mantener 4, un dedo arriba |
 | avanzar página | mantener 4, un dedo abajo | mantener 4, un dedo abajo |
-| control inicio | mantener 4 5, un dedo arriba | mantener 4 5, un dedo arriba |
-| control fin | mantener 4 5, un dedo abajo | mantener 4 5, un dedo abajo |
 | tabulador | 2 dedos arriba | 2 dedos arriba |
-| mayúsculas tabulador | mantener 6, un dedo arriba | mantener 6, un dedo arriba |
 | intro | 2 dedos a la derecha | 2 dedos a la derecha |
 | retroceso | 2 dedos a la izquierda | 2 dedos a la izquierda |
+| espacio | mantener 6, un dedo abajo | mantener 6, un dedo abajo |
 | suprimir | mantener 6, un dedo a la derecha | mantener 6, un dedo a la derecha |
 | escape | mantener 6, un dedo a la izquierda | mantener 6, un dedo a la izquierda |
-| insert | mantener 5 6, un dedo abajo | mantener 5 6, un dedo abajo |
-| bloq mayús | mantener 6, un dedo abajo | mantener 6, un dedo abajo |
+| aplicaciones | mantener 6, un dedo arriba | mantener 6, un dedo arriba |
+| insert | mantener 4 5, un dedo a la derecha | mantener 4 5, un dedo a la derecha |
+| bloq mayús | mantener 4 5, un dedo a la izquierda | mantener 4 5, un dedo a la izquierda |
 | fijar control | mantener 5, un dedo a la derecha | mantener 5, un dedo a la derecha |
 | fijar alt | mantener 5, un dedo a la izquierda | mantener 5, un dedo a la izquierda |
 | fijar mayúsculas | mantener 5, un dedo arriba | mantener 5, un dedo arriba |
+| fijar windows | mantener 5, un dedo abajo | mantener 5, un dedo abajo |
 | fijar insert | mantener 5 6, un dedo a la derecha | mantener 5 6, un dedo a la derecha |
 | fijar bloq mayús | mantener 5 6, un dedo a la izquierda | mantener 5 6, un dedo a la izquierda |
 | mantener los modificadores fijados | mantener 5 6, un dedo arriba | mantener 5 6, un dedo arriba |
-| quitar o soltar los modificadores | mantener 5, un dedo abajo | mantener 5, un dedo abajo |
+| quitar o soltar los modificadores | mantener 5 6, un dedo abajo | mantener 5 6, un dedo abajo |
 
 ### En el modo emoji
 
@@ -222,7 +222,7 @@ BombiTeclado usa liblouis 3.39.0, sin modificar, y sus tablas, con licencia LGPL
 
 BombiTeclado is an on-screen braille keyboard for Android 15 and later. Each dot goes where you rest a finger. It works with JieShuo without extra setup, and with TalkBack or other screen readers through its companion service.
 
-This repository only holds the published versions: the APK and the signed braille tables. Download `bombiteclado-<version>.apk` from [the latest release](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest), open it on the phone, and follow the welcome screens. The app checks for a new version when it opens and on demand, from Home, with Check for updates, and verifies each download before installing it.
+This repository only holds the published versions: the APK and the signed braille tables. Download [bombiteclado.apk](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest/download/bombiteclado.apk), always the latest version, open it on the phone, and follow the welcome screens. The app checks for a new version when it opens and on demand, from Home, with Check for updates, and verifies each download before installing it.
 
 ### Gestures
 
@@ -231,7 +231,7 @@ BombiTeclado ships two gesture schemes. In the app, under Settings › Gestures,
 - **Like TalkBack** (default): swipes count fingers, whichever they are, like the TalkBack braille keyboard.
 - **Like ABK** (Advanced Braille Keyboard): the dot you swipe from matters. "From dot 4" means the swiping finger starts on dot 4, and "hold 1" means dot 1 stays down while another finger swipes. ABK's action mode is the editing mode here. Long presses and other ABK-only features are not included.
 
-In both, to calibrate, rest all your fingers for two seconds. The three-finger gestures and hiding the keyboard, two fingers down, work in every mode. In navigation mode, each chord is a computer key, read with the computer braille table, and carries the latched modifiers; "hold the latched modifiers" keeps them down for several keys, such as Alt while pressing Tab or Insert for NVDA, until they are released.
+In both, to calibrate, rest all your fingers for two seconds. The three-finger gestures and hiding the keyboard, two fingers down, work in every mode. In navigation mode, each gesture is a single key or a modifier, and each chord is a computer key, read with the computer braille table. Combinations come from latching the modifiers for the next key, such as Shift and then Tab; "hold the latched modifiers" keeps them down for several keys, such as Alt while pressing Tab or Insert for NVDA, until they are released.
 
 In emoji mode, chords type the search, which is matched against each emoji's name and keywords, ignoring case and accents. The list narrows with each letter and says how many emoji there are and which one comes first.
 
@@ -388,23 +388,23 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 | end | hold 4, one finger right | hold 4, one finger right |
 | page up | hold 4, one finger up | hold 4, one finger up |
 | page down | hold 4, one finger down | hold 4, one finger down |
-| control home | hold 4 5, one finger up | hold 4 5, one finger up |
-| control end | hold 4 5, one finger down | hold 4 5, one finger down |
 | tab | 2 fingers up | 2 fingers up |
-| shift tab | hold 6, one finger up | hold 6, one finger up |
 | enter | 2 fingers right | 2 fingers right |
 | backspace | 2 fingers left | 2 fingers left |
+| space | hold 6, one finger down | hold 6, one finger down |
 | delete | hold 6, one finger right | hold 6, one finger right |
 | escape | hold 6, one finger left | hold 6, one finger left |
-| insert | hold 5 6, one finger down | hold 5 6, one finger down |
-| caps lock | hold 6, one finger down | hold 6, one finger down |
+| applications | hold 6, one finger up | hold 6, one finger up |
+| insert | hold 4 5, one finger right | hold 4 5, one finger right |
+| caps lock | hold 4 5, one finger left | hold 4 5, one finger left |
 | latch control | hold 5, one finger right | hold 5, one finger right |
 | latch alt | hold 5, one finger left | hold 5, one finger left |
 | latch shift | hold 5, one finger up | hold 5, one finger up |
+| latch windows | hold 5, one finger down | hold 5, one finger down |
 | latch insert | hold 5 6, one finger right | hold 5 6, one finger right |
 | latch caps lock | hold 5 6, one finger left | hold 5 6, one finger left |
 | hold the latched modifiers | hold 5 6, one finger up | hold 5 6, one finger up |
-| clear or release modifiers | hold 5, one finger down | hold 5, one finger down |
+| clear or release modifiers | hold 5 6, one finger down | hold 5 6, one finger down |
 
 #### In emoji mode
 
