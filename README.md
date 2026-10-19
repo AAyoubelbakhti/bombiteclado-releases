@@ -23,6 +23,8 @@ BombiTeclado trae dos esquemas de gestos. En la app, en Ajustes › Gestos, se e
 
 En los dos, para calibrar, apoya todos los dedos dos segundos. Los gestos de tres dedos y el de ocultar el teclado, dos dedos abajo, funcionan en todos los modos. En el modo navegación, cada acorde es una tecla del ordenador, con la tabla de braille informático, y lleva los modificadores fijados; «mantener los modificadores fijados» los deja apretados para varias teclas, como Alt mientras se pulsa Tab o Insert para NVDA, hasta soltarlos.
 
+En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el nombre o en las palabras clave de cada emoji, sin distinguir mayúsculas ni tildes. La lista se filtra con cada letra y dice cuántos emojis hay y cuál es el primero.
+
 <!-- gestures:es -->
 
 ### Al escribir, y los de todos los modos
@@ -205,6 +207,7 @@ En los dos, para calibrar, apoya todos los dedos dos segundos. Los gestos de tre
 | categoría de emoji siguiente | un dedo abajo | un dedo abajo |
 | insertar el emoji | 2 dedos a la derecha | 2 dedos a la derecha |
 | añadir o quitar de favoritos | 2 dedos arriba | 2 dedos arriba |
+| borrar la última letra de la búsqueda | mantener 6, un dedo a la izquierda | mantener 6, un dedo a la izquierda |
 | borrar la búsqueda | 2 dedos a la izquierda | 2 dedos a la izquierda |
 
 <!-- /gestures:es -->
@@ -229,6 +232,8 @@ BombiTeclado ships two gesture schemes. In the app, under Settings › Gestures,
 - **Like ABK** (Advanced Braille Keyboard): the dot you swipe from matters. "From dot 4" means the swiping finger starts on dot 4, and "hold 1" means dot 1 stays down while another finger swipes. ABK's action mode is the editing mode here. Long presses and other ABK-only features are not included.
 
 In both, to calibrate, rest all your fingers for two seconds. The three-finger gestures and hiding the keyboard, two fingers down, work in every mode. In navigation mode, each chord is a computer key, read with the computer braille table, and carries the latched modifiers; "hold the latched modifiers" keeps them down for several keys, such as Alt while pressing Tab or Insert for NVDA, until they are released.
+
+In emoji mode, chords type the search, which is matched against each emoji's name and keywords, ignoring case and accents. The list narrows with each letter and says how many emoji there are and which one comes first.
 
 <!-- gestures:en -->
 
@@ -412,6 +417,7 @@ In both, to calibrate, rest all your fingers for two seconds. The three-finger g
 | next emoji category | one finger down | one finger down |
 | insert emoji | 2 fingers right | 2 fingers right |
 | add or remove from favorites | 2 fingers up | 2 fingers up |
+| delete the last letter of the search | hold 6, one finger left | hold 6, one finger left |
 | clear search | 2 fingers left | 2 fingers left |
 
 <!-- /gestures:en -->
