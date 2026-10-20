@@ -35,6 +35,7 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 | modo anterior | 3 dedos a la izquierda | 3 dedos a la izquierda |
 | pasar a edición y volver | — | un dedo a la derecha desde el punto 3 |
 | pasar a emoji y volver | — | un dedo a la izquierda desde el punto 5 |
+| pasar a corrección y volver | — | un dedo a la derecha desde el punto 6 |
 | menú | 3 dedos arriba | 3 dedos arriba |
 | cambiar de teclado | 3 dedos abajo | 2 dedos a la izquierda o 3 dedos abajo |
 | ocultar el teclado | 2 dedos abajo | 2 dedos abajo |
@@ -94,6 +95,7 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 |---|---|---|
 | pasar a edición y volver | — | un dedo a la derecha desde el punto 3 |
 | pasar a emoji y volver | — | un dedo a la izquierda desde el punto 5 |
+| pasar a corrección y volver | — | un dedo a la derecha desde el punto 6 |
 | cambiar de teclado | — | 2 dedos a la izquierda |
 | espacio | — | un dedo a la derecha desde el punto 4 o un dedo a la derecha desde el punto 5 |
 | nueva línea | — | un dedo a la izquierda desde el punto 6 |
@@ -156,6 +158,7 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 
 | Orden | Como TalkBack (predeterminado) | Como ABK |
 |---|---|---|
+| pasar a corrección y volver | — | un dedo a la derecha desde el punto 6 |
 | error ortográfico anterior | un dedo arriba | un dedo arriba |
 | error ortográfico siguiente | un dedo abajo | un dedo abajo |
 | sugerencia anterior | un dedo a la izquierda | un dedo a la izquierda |
@@ -245,6 +248,7 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 | previous mode | 3 fingers left | 3 fingers left |
 | switch to editing and back | — | one finger right from dot 3 |
 | switch to emoji and back | — | one finger left from dot 5 |
+| switch to spelling and back | — | one finger right from dot 6 |
 | menu | 3 fingers up | 3 fingers up |
 | switch keyboard | 3 fingers down | 2 fingers left or 3 fingers down |
 | hide keyboard | 2 fingers down | 2 fingers down |
@@ -304,6 +308,7 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 |---|---|---|
 | switch to editing and back | — | one finger right from dot 3 |
 | switch to emoji and back | — | one finger left from dot 5 |
+| switch to spelling and back | — | one finger right from dot 6 |
 | switch keyboard | — | 2 fingers left |
 | space | — | one finger right from dot 4 or one finger right from dot 5 |
 | new line | — | one finger left from dot 6 |
@@ -366,6 +371,7 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 
 | Command | Like TalkBack (default) | Like ABK |
 |---|---|---|
+| switch to spelling and back | — | one finger right from dot 6 |
 | previous misspelling | one finger up | one finger up |
 | next misspelling | one finger down | one finger down |
 | previous suggestion | one finger left | one finger left |
