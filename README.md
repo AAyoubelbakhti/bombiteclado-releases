@@ -1,12 +1,14 @@
 # BombiTeclado
 
-Teclado braille de pantalla para Android 15 o posterior. Cada punto va donde apoyas el dedo. Funciona directamente con JieShuo, y con TalkBack u otros lectores de pantalla mediante su servicio acompañante.
+Teclado braille de pantalla para Android 12 o posterior. Cada punto va donde apoyas el dedo. Funciona directamente con JieShuo y con Backtalk, y con TalkBack u otros lectores de pantalla mediante su servicio acompañante. Con Backtalk, BombiTeclado tiene que estar activado en su lista Direct touch: Backtalk lo activa solo la primera vez que abres la app.
 
-Este repositorio solo guarda las versiones publicadas: el APK y las tablas braille firmadas.
+Este repositorio solo guarda las versiones publicadas: los APK y las tablas braille firmadas.
 
 ## Instalar
 
-1. Descarga [bombiteclado.apk](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest/download/bombiteclado.apk), que es siempre la última versión.
+1. Descarga el APK de tu Android. Los dos enlaces dan siempre la última versión:
+   - Android 15 o posterior: [bombiteclado.apk](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest/download/bombiteclado.apk).
+   - Android 12, 13 y 14: [bombiteclado-tostadora.apk](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest/download/bombiteclado-tostadora.apk), la tostadora edition, la misma app para Android antiguos.
 2. Ábrelo en el móvil. Si Android lo pide, permite instalar apps desde esa fuente.
 3. Abre BombiTeclado: la bienvenida guía para activarlo y elegirlo.
 
@@ -223,9 +225,9 @@ BombiTeclado usa liblouis 3.39.0, sin modificar, y sus tablas, con licencia LGPL
 
 ## English
 
-BombiTeclado is an on-screen braille keyboard for Android 15 and later. Each dot goes where you rest a finger. It works with JieShuo without extra setup, and with TalkBack or other screen readers through its companion service.
+BombiTeclado is an on-screen braille keyboard for Android 12 and later. Each dot goes where you rest a finger. It works with JieShuo and Backtalk without extra setup, and with TalkBack or other screen readers through its companion service. With Backtalk, BombiTeclado has to be on in its Direct touch list, which Backtalk does by itself only the first time you open the app.
 
-This repository only holds the published versions: the APK and the signed braille tables. Download [bombiteclado.apk](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest/download/bombiteclado.apk), always the latest version, open it on the phone, and follow the welcome screens. The app checks for a new version when it opens and on demand, from Home, with Check for updates, and verifies each download before installing it.
+This repository only holds the published versions: the APKs and the signed braille tables. Download [bombiteclado.apk](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest/download/bombiteclado.apk) for Android 15 and later, or [bombiteclado-tostadora.apk](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest/download/bombiteclado-tostadora.apk), the tostadora edition, for Android 12, 13 and 14; both links always give the latest version. Open it on the phone and follow the welcome screens. The app checks for a new version when it opens and on demand, from Home, with Check for updates, and verifies each download before installing it.
 
 ### Gestures
 
