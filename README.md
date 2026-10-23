@@ -1,6 +1,6 @@
 # BombiTeclado
 
-Teclado braille de pantalla para Android 12 o posterior. Cada punto se escribe donde se apoya el dedo. Funciona directamente con JieShuo y con Backtalk, y con TalkBack u otros lectores de pantalla mediante su servicio acompañante. Con Backtalk, BombiTeclado debe estar activado en su lista Direct touch, que Backtalk activa por su cuenta solo la primera vez que se abre la app.
+Teclado braille de pantalla para Android 12 o posterior. Cada punto se escribe donde se apoya el dedo. Funciona con varios lectores de pantalla y está probado con JieShuo, TalkBack y Backtalk.
 
 Cada ajuste ofrece su explicación con la acción «Ayuda» del lector de pantalla, y la pestaña Ayuda las reúne todas.
 
@@ -22,10 +22,10 @@ La app busca una versión nueva al abrirse y cuando se le pide, en Inicio, con �
 
 BombiTeclado trae dos esquemas de gestos. En la app, en Ajustes › Gestos, se elige uno y se puede cambiar cualquier gesto; en el teclado también, desde su menú (tres dedos arriba), en Gestos.
 
-- **TalkBack** (predeterminado): los deslizamientos cuentan los dedos, sean cuales sean, como el teclado braille de TalkBack.
-- **ABK** (Advanced Braille Keyboard): importa desde qué punto se desliza. «Desde el punto 4» quiere decir que el dedo que desliza empieza en el punto 4, y «mantener 1», que el punto 1 se queda apoyado mientras otro dedo desliza. El modo acción de ABK es aquí el modo edición. Al escribir y en edición, los deslizamientos de dos dedos tienen que ser largos, como en ABK, y funcionan como en ABK con la pantalla hacia fuera, porque ABK los lee en la pantalla sin mirar cómo se sostiene el móvil: abajo envía, arriba cambia de teclado, a la derecha oculta el teclado y a la izquierda dicta. Al escribir, las pulsaciones largas de ABK ejecutan su orden. No incluye la pantalla de privacidad, la velocidad de la voz ni la IA de ABK.
+- **Predeterminado**: los deslizamientos cuentan los dedos, sean cuales sean, como en el teclado braille de TalkBack.
+- **Alternativo**: importa desde qué punto se desliza. «Desde el punto 4» quiere decir que el dedo que desliza empieza en el punto 4, y «mantener 1», que el punto 1 se queda apoyado mientras otro dedo desliza. Al escribir y en edición, los deslizamientos de dos dedos tienen que ser largos: abajo envía, arriba cambia de teclado, a la derecha oculta el teclado y a la izquierda dicta. Al escribir, algunos acordes ejecutan una orden con una pulsación larga.
 
-En los dos, para calibrar, se apoyan todos los dedos dos segundos. Un deslizamiento «largo» recorre algo más de un tercio del lado corto de la pantalla, y una «pulsación larga» es un acorde que se mantiene quieto medio segundo antes de soltarlo; el tiempo se cambia en Ajustes › Tacto y calibración. Una pulsación larga sin orden se escribe como el acorde, y un deslizamiento largo sin orden propia hace lo del normal. Los gestos de tres dedos funcionan en todos los modos, y ocultar el teclado es dos dedos abajo, salvo en escritura y edición con el esquema ABK, donde es dos dedos a la derecha, largo. Las abreviaturas se expanden solas al acabar la palabra con un espacio o un salto de línea; si se desactiva «Reemplazar automáticamente», en Ajustes › Escritura › Lista de abreviaturas, solo con su gesto. En el modo navegación, cada gesto es una sola tecla o un modificador, y cada acorde, una tecla del ordenador con la tabla de braille informático. Las combinaciones se hacen fijando los modificadores para la tecla siguiente, como Mayúsculas y luego Tab; «mantener los modificadores fijados» los deja apretados para varias teclas, como Alt mientras se pulsa Tab o Insert para NVDA, hasta soltarlos.
+En los dos, para calibrar, se apoyan todos los dedos dos segundos. Un deslizamiento «largo» recorre algo más de un tercio del lado corto de la pantalla, y una «pulsación larga» es un acorde que se mantiene quieto medio segundo antes de soltarlo; el tiempo se cambia en Ajustes › Tacto y calibración. Una pulsación larga sin orden se escribe como el acorde, y un deslizamiento largo sin orden propia hace lo del normal. Los gestos de tres dedos funcionan en todos los modos, y ocultar el teclado es dos dedos abajo, salvo en escritura y edición con el esquema alternativo, donde es dos dedos a la derecha, largo. Las abreviaturas se expanden solas al acabar la palabra con un espacio o un salto de línea; si se desactiva «Reemplazar automáticamente», en Ajustes › Escritura › Lista de abreviaturas, solo con su gesto. En el modo navegación, cada gesto es una sola tecla o un modificador, y cada acorde, una tecla del ordenador con la tabla de braille informático. Las combinaciones se hacen fijando los modificadores para la tecla siguiente, como Mayúsculas y luego Tab; «mantener los modificadores fijados» los deja apretados para varias teclas, como Alt mientras se pulsa Tab o Insert para NVDA, hasta soltarlos.
 
 En el modo emojis y otros símbolos, los acordes escriben lo que se busca, que se encuentra en el nombre o en las palabras clave de cada emoji o símbolo, sin distinguir mayúsculas ni tildes. La lista se filtra con cada letra y dice cuántos resultados hay y cuál es el primero. Tras los emojis vienen, por categorías, los símbolos que no son emoji, para los signos que la tabla braille en uso no tiene.
 
@@ -33,7 +33,7 @@ En el modo emojis y otros símbolos, los acordes escriben lo que se busca, que s
 
 ### Al escribir, y los de todos los modos
 
-| Orden | TalkBack (predeterminado) | ABK |
+| Orden | Predeterminado | Alternativo |
 |---|---|---|
 | modo siguiente | 3 dedos a la derecha | 3 dedos a la derecha |
 | modo anterior | 3 dedos a la izquierda | 3 dedos a la izquierda |
@@ -110,7 +110,7 @@ En el modo emojis y otros símbolos, los acordes escriben lo que se busca, que s
 
 ### En el modo edición
 
-| Orden | TalkBack (predeterminado) | ABK |
+| Orden | Predeterminado | Alternativo |
 |---|---|---|
 | pasar a edición y volver | — | un dedo a la derecha desde el punto 3 |
 | pasar a emojis y otros símbolos y volver | — | un dedo a la izquierda desde el punto 5 |
@@ -191,7 +191,7 @@ En el modo emojis y otros símbolos, los acordes escriben lo que se busca, que s
 
 ### En el modo corrección
 
-| Orden | TalkBack (predeterminado) | ABK |
+| Orden | Predeterminado | Alternativo |
 |---|---|---|
 | ocultar el teclado | 2 dedos abajo | 2 dedos abajo |
 | error ortográfico anterior | un dedo arriba | un dedo arriba |
@@ -206,7 +206,7 @@ En el modo emojis y otros símbolos, los acordes escriben lo que se busca, que s
 
 ### En el modo navegación
 
-| Orden | TalkBack (predeterminado) | ABK |
+| Orden | Predeterminado | Alternativo |
 |---|---|---|
 | ocultar el teclado | 2 dedos abajo | 2 dedos abajo |
 | flecha arriba | un dedo arriba | un dedo arriba |
@@ -237,7 +237,7 @@ En el modo emojis y otros símbolos, los acordes escriben lo que se busca, que s
 
 ### En el modo emojis y otros símbolos
 
-| Orden | TalkBack (predeterminado) | ABK |
+| Orden | Predeterminado | Alternativo |
 |---|---|---|
 | pasar a emojis y otros símbolos y volver | — | un dedo a la izquierda desde el punto 5 |
 | ocultar el teclado | 2 dedos abajo | 2 dedos abajo |
@@ -260,7 +260,7 @@ BombiTeclado usa liblouis 3.39.0, sin modificar, y sus tablas, con licencia LGPL
 
 ## English
 
-BombiTeclado is an on-screen braille keyboard for Android 12 and later. Each dot is typed where a finger rests. It works directly with JieShuo and Backtalk, and with TalkBack or other screen readers through its companion service. With Backtalk, BombiTeclado must be on in its Direct touch list, which Backtalk turns on by itself only the first time the app opens. Each setting offers its explanation through the screen reader action Help, and the Help tab gathers them all.
+BombiTeclado is an on-screen braille keyboard for Android 12 and later. Each dot is typed where a finger rests. It works with several screen readers and has been tested with JieShuo, TalkBack and Backtalk. Each setting offers its explanation through the screen reader action Help, and the Help tab gathers them all.
 
 This repository only holds the published versions: the APKs and the signed braille tables. Download [bombiteclado.apk](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest/download/bombiteclado.apk) for Android 15 and later, or [bombiteclado-tostadora.apk](https://github.com/AAyoubelbakhti/bombiteclado-releases/releases/latest/download/bombiteclado-tostadora.apk), the tostadora edition, for Android 12, 13 and 14; both links always give the latest version. Open it on the phone and follow the welcome screens. The app checks for a new version when it opens and on demand, from Home, with Check for updates, and verifies each download before installing it.
 
@@ -268,10 +268,10 @@ This repository only holds the published versions: the APKs and the signed brail
 
 BombiTeclado ships two gesture schemes. In the app, under Settings › Gestures, a scheme is chosen and any gesture can be changed; on the keyboard too, from its menu (three fingers up), under Gestures.
 
-- **TalkBack** (default): swipes count fingers, whichever they are, like the TalkBack braille keyboard.
-- **ABK** (Advanced Braille Keyboard): the dot a swipe starts from matters. "From dot 4" means the swiping finger starts on dot 4, and "hold 1" means dot 1 stays down while another finger swipes. The action mode of ABK is the editing mode here. While typing and editing, two-finger swipes have to be long, as in ABK, and work as in ABK with the screen facing away, as ABK reads them on the screen however the phone is held: down sends, up switches keyboard, right hides the keyboard and left dictates. While typing, the long presses of ABK run their command. The privacy screen, voice speed and AI of ABK are not included.
+- **Default**: swipes count fingers, whichever they are, as in the TalkBack braille keyboard.
+- **Alternative**: the dot a swipe starts from matters. "From dot 4" means the swiping finger starts on dot 4, and "hold 1" means dot 1 stays down while another finger swipes. While typing and editing, two-finger swipes have to be long: down sends, up switches keyboard, right hides the keyboard and left dictates. While typing, some chords run a command on a long press.
 
-In both, to calibrate, rest all fingers for two seconds. A "long" swipe goes a little over a third of the short side of the screen, and a "long press" is a chord held still for half a second before it is lifted; the time is changed under Settings › Touch and calibration. A long press with no command types as its chord, and a long swipe with no command of its own does what the plain one does. The three-finger gestures work in every mode, and hiding the keyboard is two fingers down, except in typing and editing with the ABK scheme, where it is two fingers right, long. Abbreviations expand by themselves when their word ends with a space or a line break; with "Replace automatically" off, under Settings › Writing › Abbreviation list, only with their gesture. In navigation mode, each gesture is a single key or a modifier, and each chord is a computer key, read with the computer braille table. Combinations come from latching the modifiers for the next key, such as Shift and then Tab; "hold the latched modifiers" keeps them down for several keys, such as Alt while pressing Tab or Insert for NVDA, until they are released.
+In both, to calibrate, rest all fingers for two seconds. A "long" swipe goes a little over a third of the short side of the screen, and a "long press" is a chord held still for half a second before it is lifted; the time is changed under Settings › Touch and calibration. A long press with no command types as its chord, and a long swipe with no command of its own does what the plain one does. The three-finger gestures work in every mode, and hiding the keyboard is two fingers down, except in typing and editing with the alternative scheme, where it is two fingers right, long. Abbreviations expand by themselves when their word ends with a space or a line break; with "Replace automatically" off, under Settings › Writing › Abbreviation list, only with their gesture. In navigation mode, each gesture is a single key or a modifier, and each chord is a computer key, read with the computer braille table. Combinations come from latching the modifiers for the next key, such as Shift and then Tab; "hold the latched modifiers" keeps them down for several keys, such as Alt while pressing Tab or Insert for NVDA, until they are released.
 
 In emoji and other symbols mode, chords type the search, matched against the name and keywords of each emoji or symbol, ignoring case and accents. The list narrows with each letter and says how many results there are and which one comes first. After the emoji come the symbols that are not emoji, by category, for signs the braille table in use lacks.
 
@@ -279,7 +279,7 @@ In emoji and other symbols mode, chords type the search, matched against the nam
 
 #### While typing, and those of every mode
 
-| Command | TalkBack (default) | ABK |
+| Command | Default | Alternative |
 |---|---|---|
 | next mode | 3 fingers right | 3 fingers right |
 | previous mode | 3 fingers left | 3 fingers left |
@@ -356,7 +356,7 @@ In emoji and other symbols mode, chords type the search, matched against the nam
 
 #### In editing mode
 
-| Command | TalkBack (default) | ABK |
+| Command | Default | Alternative |
 |---|---|---|
 | switch to editing and back | — | one finger right from dot 3 |
 | switch to emoji and other symbols and back | — | one finger left from dot 5 |
@@ -437,7 +437,7 @@ In emoji and other symbols mode, chords type the search, matched against the nam
 
 #### In spelling mode
 
-| Command | TalkBack (default) | ABK |
+| Command | Default | Alternative |
 |---|---|---|
 | hide keyboard | 2 fingers down | 2 fingers down |
 | previous misspelling | one finger up | one finger up |
@@ -452,7 +452,7 @@ In emoji and other symbols mode, chords type the search, matched against the nam
 
 #### In navigation mode
 
-| Command | TalkBack (default) | ABK |
+| Command | Default | Alternative |
 |---|---|---|
 | hide keyboard | 2 fingers down | 2 fingers down |
 | up arrow | one finger up | one finger up |
@@ -483,7 +483,7 @@ In emoji and other symbols mode, chords type the search, matched against the nam
 
 #### In emoji and other symbols mode
 
-| Command | TalkBack (default) | ABK |
+| Command | Default | Alternative |
 |---|---|---|
 | switch to emoji and other symbols and back | — | one finger left from dot 5 |
 | hide keyboard | 2 fingers down | 2 fingers down |
