@@ -21,9 +21,9 @@ La app busca una versión nueva al abrirse y cuando se le pide, en Inicio, con �
 BombiTeclado trae dos esquemas de gestos. En la app, en Ajustes › Gestos, se elige uno y se puede cambiar cualquier gesto; en el teclado también, desde su menú (tres dedos arriba), en Gestos.
 
 - **Como TalkBack** (predeterminado): los deslizamientos cuentan los dedos, sean cuales sean, como el teclado braille de TalkBack.
-- **Como ABK** (Advanced Braille Keyboard): importa desde qué punto se desliza. «Desde el punto 4» quiere decir que el dedo que desliza empieza en el punto 4, y «mantener 1», que el punto 1 se queda apoyado mientras otro dedo desliza. El modo acción de ABK es aquí el modo edición. No incluye las pulsaciones largas ni otras funciones propias de ABK.
+- **Como ABK** (Advanced Braille Keyboard): importa desde qué punto se desliza. «Desde el punto 4» quiere decir que el dedo que desliza empieza en el punto 4, y «mantener 1», que el punto 1 se queda apoyado mientras otro dedo desliza. El modo acción de ABK es aquí el modo edición. Al escribir y en edición, los deslizamientos de dos dedos tienen que ser largos, como en ABK, y van como se notan en ABK con la pantalla hacia fuera, porque ABK los lee en la pantalla sin mirar cómo se sostiene el móvil: abajo envía, arriba cambia de teclado, a la derecha oculta el teclado y a la izquierda dicta. Al escribir, las pulsaciones largas de ABK hacen su orden. No incluye la pantalla de privacidad, la velocidad de la voz ni la IA de ABK.
 
-En los dos, para calibrar, apoya todos los dedos dos segundos. Los gestos de tres dedos y el de ocultar el teclado, dos dedos abajo, funcionan en todos los modos. En el modo navegación, cada gesto es una sola tecla o un modificador, y cada acorde, una tecla del ordenador con la tabla de braille informático. Las combinaciones se hacen fijando los modificadores para la tecla siguiente, como Mayúsculas y luego Tab; «mantener los modificadores fijados» los deja apretados para varias teclas, como Alt mientras se pulsa Tab o Insert para NVDA, hasta soltarlos.
+En los dos, para calibrar, apoya todos los dedos dos segundos. Un deslizamiento «largo» recorre algo más de un tercio del lado corto de la pantalla, y una «pulsación larga» es un acorde que se mantiene quieto medio segundo antes de soltarlo; el tiempo se cambia en Ajustes › Toques y calibración. Una pulsación larga sin orden se escribe como el acorde, y un deslizamiento largo sin orden propia hace lo del normal. Los gestos de tres dedos funcionan en todos los modos, y ocultar el teclado es dos dedos abajo, salvo en escritura y edición con el esquema ABK, donde es dos dedos a la derecha, largo. Las abreviaturas se expanden solas al acabar la palabra con un espacio o un salto de línea; si se desactiva «Reemplazar automáticamente», en Ajustes › Escritura › Abreviaturas, solo con su gesto. En el modo navegación, cada gesto es una sola tecla o un modificador, y cada acorde, una tecla del ordenador con la tabla de braille informático. Las combinaciones se hacen fijando los modificadores para la tecla siguiente, como Mayúsculas y luego Tab; «mantener los modificadores fijados» los deja apretados para varias teclas, como Alt mientras se pulsa Tab o Insert para NVDA, hasta soltarlos.
 
 En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el nombre o en las palabras clave de cada emoji, sin distinguir mayúsculas ni tildes. La lista se filtra con cada letra y dice cuántos emojis hay y cuál es el primero.
 
@@ -38,22 +38,24 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 | pasar a edición y volver | — | un dedo a la derecha desde el punto 3 |
 | pasar a emoji y volver | — | un dedo a la izquierda desde el punto 5 |
 | menú | 3 dedos arriba | 3 dedos arriba |
-| cambiar de teclado | 3 dedos abajo | 2 dedos a la izquierda o 3 dedos abajo |
-| ocultar el teclado | 2 dedos abajo | 2 dedos abajo |
-| espacio | un dedo a la derecha | un dedo a la derecha desde el punto 4 o un dedo a la derecha desde el punto 5 |
-| nueva línea | 2 dedos a la derecha | un dedo a la izquierda desde el punto 6 |
-| enviar | 2 dedos arriba | 2 dedos a la derecha |
-| borrar carácter | un dedo a la izquierda | un dedo a la izquierda desde el punto 4 |
-| borrar palabra | 2 dedos a la izquierda | un dedo a la izquierda desde el punto 1 |
+| cambiar de teclado | 3 dedos abajo | 2 dedos arriba, largo, o 3 dedos abajo |
+| ocultar el teclado | 2 dedos abajo | 2 dedos a la derecha, largo |
+| espacio | un dedo a la derecha | un dedo a la derecha desde el punto 4 o pulsación larga del punto 4 |
+| espacio, expandiendo la abreviatura | — | un dedo a la derecha desde el punto 5 |
+| expandir la abreviatura | mantener 5, 2 dedos a la derecha | pulsación larga del punto 1 |
+| nueva línea | 2 dedos a la derecha | un dedo a la izquierda desde el punto 6 o pulsación larga de los puntos 1 5 |
+| enviar | 2 dedos arriba | 2 dedos abajo, largo, o pulsación larga de los puntos 1 3 |
+| borrar carácter | un dedo a la izquierda | un dedo a la izquierda desde el punto 4 o pulsación larga de los puntos 1 2 |
+| borrar palabra | 2 dedos a la izquierda | un dedo a la izquierda desde el punto 1 o pulsación larga de los puntos 1 4 |
 | deshacer | mantener 4 5 6, un dedo a la izquierda | mantener 6, un dedo a la izquierda desde el punto 3 |
 | rehacer | mantener 4 5 6, un dedo a la derecha | mantener 6, un dedo a la derecha desde el punto 3 |
-| bloqueo de mayúsculas | mantener 4 6, un dedo a la derecha | un dedo a la derecha desde el punto 6 |
+| bloqueo de mayúsculas | mantener 4 6, un dedo a la derecha | un dedo a la derecha desde el punto 6 o pulsación larga del punto 6 |
 | cursor atrás | un dedo arriba | un dedo a la izquierda desde el punto 2 |
 | cursor adelante | un dedo abajo | un dedo a la derecha desde el punto 2 |
 | carácter anterior | mantener 6, un dedo arriba | — |
 | carácter siguiente | mantener 6, un dedo abajo | — |
-| palabra anterior | mantener 5, un dedo arriba | mantener 1, un dedo a la izquierda desde el punto 5 o mantener 4, un dedo a la izquierda desde el punto 1 |
-| palabra siguiente | mantener 5, un dedo abajo | mantener 1, un dedo a la derecha desde el punto 5 o mantener 4, un dedo a la derecha desde el punto 1 |
+| palabra anterior | mantener 5, un dedo arriba | mantener 1, un dedo a la izquierda desde el punto 5 |
+| palabra siguiente | mantener 5, un dedo abajo | mantener 1, un dedo a la derecha desde el punto 5 |
 | frase anterior | — | mantener 1, un dedo a la izquierda desde el punto 6 |
 | frase siguiente | — | mantener 1, un dedo a la derecha desde el punto 6 |
 | línea anterior | mantener 4, un dedo arriba | mantener 2, un dedo a la izquierda desde el punto 4 |
@@ -72,27 +74,35 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 | seleccionar hasta el final | mantener 4 5, 2 dedos abajo | — |
 | seleccionar todo | mantener 4, 3 dedos a la izquierda | mantener 4, un dedo a la izquierda desde el punto 2 |
 | marcar el inicio de la selección | mantener 4, 2 dedos a la izquierda | mantener 4, un dedo a la izquierda desde el punto 3 |
-| seleccionar desde la marca | mantener 4, 2 dedos a la derecha | mantener 4, un dedo a la derecha desde el punto 3 |
+| seleccionar desde la marca | mantener 4, 2 dedos a la derecha | — |
+| seleccionar lo recorrido | — | mantener 4, un dedo a la derecha desde el punto 3 |
 | cortar | mantener 4, 3 dedos arriba | mantener 5, un dedo a la izquierda desde el punto 1 |
 | copiar | mantener 4, 3 dedos abajo | mantener 5, un dedo a la derecha desde el punto 1 |
 | pegar | mantener 4, 3 dedos a la derecha | mantener 5, un dedo a la izquierda desde el punto 2 |
 | leer el carácter | mantener 6, un dedo a la derecha | — |
 | leer el carácter con su palabra fonética | mantener 6, un dedo a la izquierda | — |
 | leer la palabra | mantener 5, un dedo a la derecha | — |
-| deletrear la palabra | mantener 5, un dedo a la izquierda | — |
-| leer la línea | mantener 4, un dedo a la derecha | un dedo a la izquierda desde el punto 3 |
+| deletrear la palabra | mantener 5, un dedo a la izquierda | pulsación larga de los puntos 1 2 3 |
+| leer la palabra antes del cursor | — | mantener 4, un dedo a la izquierda desde el punto 1 |
+| leer la palabra tras el cursor | — | mantener 4, un dedo a la derecha desde el punto 1 |
+| leer la línea | mantener 4, un dedo a la derecha | — |
 | leer el campo entero | mantener 4, un dedo a la izquierda | mantener 4, un dedo a la derecha desde el punto 2 |
 | leer hasta el cursor | — | mantener 3, un dedo a la izquierda desde el punto 5 |
 | leer desde el cursor | — | mantener 3, un dedo a la derecha desde el punto 5 |
+| leer la frase hasta el cursor | — | un dedo a la izquierda desde el punto 3 |
 | leer la selección | — | mantener 5, un dedo a la derecha desde el punto 3 |
 | leer el portapapeles | — | mantener 5, un dedo a la izquierda desde el punto 3 |
 | borrar la selección o la unidad | — | mantener 5, un dedo a la derecha desde el punto 2 |
 | tabla anterior | mantener 4 5, un dedo a la izquierda | — |
-| tabla siguiente | mantener 4 5, un dedo a la derecha | un dedo a la derecha desde el punto 1 |
+| tabla siguiente | mantener 4 5, un dedo a la derecha | un dedo a la derecha desde el punto 1 o pulsación larga del punto 3 |
 | 6 u 8 puntos | mantener 4 5, 2 dedos a la derecha | — |
-| fijar o liberar la posición del teclado | mantener 4 5 6, un dedo arriba | mantener 6, un dedo a la derecha desde el punto 1 o mantener 6, un dedo a la izquierda desde el punto 1 |
+| fijar o liberar la posición del teclado | mantener 4 5 6, un dedo arriba | — |
+| fijar la posición del teclado | — | mantener 6, un dedo a la derecha desde el punto 1 |
+| liberar la posición del teclado | — | mantener 6, un dedo a la izquierda desde el punto 1 |
 | cambiar el eco al escribir | mantener 4 5 6, 2 dedos arriba | mantener 3, un dedo a la izquierda desde el punto 6 |
-| dictado | mantener 4 5 6, un dedo abajo | 2 dedos arriba |
+| dictado | mantener 4 5 6, un dedo abajo | 2 dedos a la izquierda, largo |
+| subir el volumen | — | pulsación larga de los puntos 5 6 |
+| bajar el volumen | — | pulsación larga de los puntos 2 3 |
 | tabulador | — | mantener 3, un dedo a la derecha desde el punto 4 |
 | mayúsculas tabulador | — | mantener 3, un dedo a la izquierda desde el punto 4 |
 
@@ -102,10 +112,13 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 |---|---|---|
 | pasar a edición y volver | — | un dedo a la derecha desde el punto 3 |
 | pasar a emoji y volver | — | un dedo a la izquierda desde el punto 5 |
-| cambiar de teclado | — | 2 dedos a la izquierda |
-| espacio | — | un dedo a la derecha desde el punto 4 o un dedo a la derecha desde el punto 5 |
+| cambiar de teclado | 3 dedos abajo | 2 dedos arriba, largo, o 3 dedos abajo |
+| ocultar el teclado | 2 dedos abajo | 2 dedos a la derecha, largo |
+| espacio | — | un dedo a la derecha desde el punto 4 |
+| espacio, expandiendo la abreviatura | — | un dedo a la derecha desde el punto 5 |
+| expandir la abreviatura | mantener 5, 2 dedos a la derecha | — |
 | nueva línea | — | un dedo a la izquierda desde el punto 6 |
-| enviar | — | 2 dedos a la derecha |
+| enviar | — | 2 dedos abajo, largo |
 | borrar carácter | — | un dedo a la izquierda desde el punto 4 |
 | borrar palabra | — | un dedo a la izquierda desde el punto 1 |
 | deshacer | mantener 4 5 6, un dedo a la izquierda o puntos 1 3 5 6 | mantener 6, un dedo a la izquierda desde el punto 3 |
@@ -115,8 +128,8 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 | cursor adelante | — | un dedo a la derecha desde el punto 2 |
 | carácter anterior | mantener 6, un dedo arriba | — |
 | carácter siguiente | mantener 6, un dedo abajo | — |
-| palabra anterior | mantener 5, un dedo arriba | mantener 1, un dedo a la izquierda desde el punto 5 o mantener 4, un dedo a la izquierda desde el punto 1 o punto 1 o puntos 2 3 |
-| palabra siguiente | mantener 5, un dedo abajo | mantener 1, un dedo a la derecha desde el punto 5 o mantener 4, un dedo a la derecha desde el punto 1 o punto 4 o puntos 5 6 |
+| palabra anterior | mantener 5, un dedo arriba | mantener 1, un dedo a la izquierda desde el punto 5 o punto 1 |
+| palabra siguiente | mantener 5, un dedo abajo | mantener 1, un dedo a la derecha desde el punto 5 o punto 4 |
 | frase anterior | — | mantener 1, un dedo a la izquierda desde el punto 6 o punto 2 |
 | frase siguiente | — | mantener 1, un dedo a la derecha desde el punto 6 o punto 5 |
 | línea anterior | mantener 4, un dedo arriba | mantener 2, un dedo a la izquierda desde el punto 4 o puntos 1 4 |
@@ -137,7 +150,8 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 | seleccionar todo | mantener 4, 3 dedos a la izquierda o punto 1 | mantener 4, un dedo a la izquierda desde el punto 2 o puntos 2 3 5 6 |
 | quitar la selección | puntos 2 3 4 | — |
 | marcar el inicio de la selección | mantener 4, 2 dedos a la izquierda o puntos 1 3 4 | mantener 4, un dedo a la izquierda desde el punto 3 o puntos 1 4 5 |
-| seleccionar desde la marca | mantener 4, 2 dedos a la derecha o puntos 1 2 5 | mantener 4, un dedo a la derecha desde el punto 3 o puntos 1 2 4 |
+| seleccionar desde la marca | mantener 4, 2 dedos a la derecha o puntos 1 2 5 | — |
+| seleccionar lo recorrido | — | mantener 4, un dedo a la derecha desde el punto 3 o puntos 1 2 4 |
 | cortar | mantener 4, 3 dedos arriba o puntos 1 3 4 6 | mantener 5, un dedo a la izquierda desde el punto 1 o puntos 1 2 3 4 |
 | copiar | mantener 4, 3 dedos abajo o puntos 1 4 | mantener 5, un dedo a la derecha desde el punto 1 o puntos 1 2 3 5 |
 | pegar | mantener 4, 3 dedos a la derecha o puntos 1 2 3 6 | mantener 5, un dedo a la izquierda desde el punto 2 o puntos 1 2 3 6 |
@@ -145,12 +159,16 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 | leer el carácter con su palabra fonética | mantener 6, un dedo a la izquierda | — |
 | leer la palabra | mantener 5, un dedo a la derecha | — |
 | deletrear la palabra | mantener 5, un dedo a la izquierda | — |
-| leer la línea | mantener 4, un dedo a la derecha | un dedo a la izquierda desde el punto 3 |
+| leer la palabra antes del cursor | — | mantener 4, un dedo a la izquierda desde el punto 1 o puntos 2 3 |
+| leer la palabra tras el cursor | — | mantener 4, un dedo a la derecha desde el punto 1 o puntos 5 6 |
+| leer la línea | mantener 4, un dedo a la derecha | — |
 | leer el campo entero | mantener 4, un dedo a la izquierda | mantener 4, un dedo a la derecha desde el punto 2 o puntos 1 2 4 5 |
 | leer hasta el cursor | — | mantener 3, un dedo a la izquierda desde el punto 5 o puntos 1 2 3 |
 | leer desde el cursor | — | mantener 3, un dedo a la derecha desde el punto 5 o puntos 4 5 6 |
+| leer la frase hasta el cursor | — | un dedo a la izquierda desde el punto 3 |
 | leer la selección | 2 dedos arriba | mantener 5, un dedo a la derecha desde el punto 3 o puntos 1 5 |
 | leer el portapapeles | — | mantener 5, un dedo a la izquierda desde el punto 3 o puntos 2 4 |
+| decir la fecha y la hora | — | puntos 1 6 |
 | unidad anterior | un dedo a la izquierda | — |
 | unidad siguiente | un dedo a la derecha | — |
 | tipo de unidad anterior | un dedo arriba | — |
@@ -161,9 +179,11 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 | tabla anterior | mantener 4 5, un dedo a la izquierda | — |
 | tabla siguiente | mantener 4 5, un dedo a la derecha | un dedo a la derecha desde el punto 1 |
 | 6 u 8 puntos | mantener 4 5, 2 dedos a la derecha | — |
-| fijar o liberar la posición del teclado | mantener 4 5 6, un dedo arriba | mantener 6, un dedo a la derecha desde el punto 1 o mantener 6, un dedo a la izquierda desde el punto 1 |
+| fijar o liberar la posición del teclado | mantener 4 5 6, un dedo arriba | — |
+| fijar la posición del teclado | — | mantener 6, un dedo a la derecha desde el punto 1 |
+| liberar la posición del teclado | — | mantener 6, un dedo a la izquierda desde el punto 1 |
 | cambiar el eco al escribir | mantener 4 5 6, 2 dedos arriba | mantener 3, un dedo a la izquierda desde el punto 6 |
-| dictado | mantener 4 5 6, un dedo abajo | 2 dedos arriba |
+| dictado | mantener 4 5 6, un dedo abajo | 2 dedos a la izquierda, largo |
 | tabulador | — | mantener 3, un dedo a la derecha desde el punto 4 o puntos 1 2 3 4 5 |
 | mayúsculas tabulador | — | mantener 3, un dedo a la izquierda desde el punto 4 o puntos 1 2 4 5 6 |
 
@@ -171,6 +191,7 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 
 | Orden | Como TalkBack (predeterminado) | Como ABK |
 |---|---|---|
+| ocultar el teclado | 2 dedos abajo | 2 dedos abajo |
 | error ortográfico anterior | un dedo arriba | un dedo arriba |
 | error ortográfico siguiente | un dedo abajo | un dedo abajo |
 | sugerencia anterior | un dedo a la izquierda | un dedo a la izquierda |
@@ -185,6 +206,7 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 
 | Orden | Como TalkBack (predeterminado) | Como ABK |
 |---|---|---|
+| ocultar el teclado | 2 dedos abajo | 2 dedos abajo |
 | flecha arriba | un dedo arriba | un dedo arriba |
 | flecha abajo | un dedo abajo | un dedo abajo |
 | flecha izquierda | un dedo a la izquierda | un dedo a la izquierda |
@@ -216,6 +238,7 @@ En el modo emoji, los acordes escriben lo que se busca, que se encuentra en el n
 | Orden | Como TalkBack (predeterminado) | Como ABK |
 |---|---|---|
 | pasar a emoji y volver | — | un dedo a la izquierda desde el punto 5 |
+| ocultar el teclado | 2 dedos abajo | 2 dedos abajo |
 | emoji anterior | un dedo a la izquierda | un dedo a la izquierda |
 | emoji siguiente | un dedo a la derecha | un dedo a la derecha |
 | categoría de emoji anterior | un dedo arriba | un dedo arriba |
@@ -244,9 +267,9 @@ This repository only holds the published versions: the APKs and the signed brail
 BombiTeclado ships two gesture schemes. In the app, under Settings › Gestures, you choose one and can change any gesture; on the keyboard too, from its menu (three fingers up), under Gestures.
 
 - **Like TalkBack** (default): swipes count fingers, whichever they are, like the TalkBack braille keyboard.
-- **Like ABK** (Advanced Braille Keyboard): the dot you swipe from matters. "From dot 4" means the swiping finger starts on dot 4, and "hold 1" means dot 1 stays down while another finger swipes. ABK's action mode is the editing mode here. Long presses and other ABK-only features are not included.
+- **Like ABK** (Advanced Braille Keyboard): the dot you swipe from matters. "From dot 4" means the swiping finger starts on dot 4, and "hold 1" means dot 1 stays down while another finger swipes. ABK's action mode is the editing mode here. While typing and editing, two-finger swipes have to be long, as in ABK, and go as they feel in ABK with the screen facing away, as ABK reads them on the screen however the phone is held: down sends, up switches keyboard, right hides the keyboard and left dictates. While typing, the long presses of ABK do their command. The privacy screen, voice speed and AI of ABK are not included.
 
-In both, to calibrate, rest all your fingers for two seconds. The three-finger gestures and hiding the keyboard, two fingers down, work in every mode. In navigation mode, each gesture is a single key or a modifier, and each chord is a computer key, read with the computer braille table. Combinations come from latching the modifiers for the next key, such as Shift and then Tab; "hold the latched modifiers" keeps them down for several keys, such as Alt while pressing Tab or Insert for NVDA, until they are released.
+In both, to calibrate, rest all your fingers for two seconds. A "long" swipe goes a little over a third of the short side of the screen, and a "long press" is a chord held still for half a second before it is lifted; the time is changed under Settings › Touch and calibration. A long press with no command types as its chord, and a long swipe with no command of its own does what the plain one does. The three-finger gestures work in every mode, and hiding the keyboard is two fingers down, except in typing and editing with the ABK scheme, where it is two fingers right, long. Abbreviations expand by themselves when their word ends with a space or a line break; with "Replace automatically" off, under Settings › Writing › Abbreviations, only with their gesture. In navigation mode, each gesture is a single key or a modifier, and each chord is a computer key, read with the computer braille table. Combinations come from latching the modifiers for the next key, such as Shift and then Tab; "hold the latched modifiers" keeps them down for several keys, such as Alt while pressing Tab or Insert for NVDA, until they are released.
 
 In emoji mode, chords type the search, which is matched against each emoji's name and keywords, ignoring case and accents. The list narrows with each letter and says how many emoji there are and which one comes first.
 
@@ -261,22 +284,24 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 | switch to editing and back | — | one finger right from dot 3 |
 | switch to emoji and back | — | one finger left from dot 5 |
 | menu | 3 fingers up | 3 fingers up |
-| switch keyboard | 3 fingers down | 2 fingers left or 3 fingers down |
-| hide keyboard | 2 fingers down | 2 fingers down |
-| space | one finger right | one finger right from dot 4 or one finger right from dot 5 |
-| new line | 2 fingers right | one finger left from dot 6 |
-| send | 2 fingers up | 2 fingers right |
-| delete character | one finger left | one finger left from dot 4 |
-| delete word | 2 fingers left | one finger left from dot 1 |
+| switch keyboard | 3 fingers down | 2 fingers up, long, or 3 fingers down |
+| hide keyboard | 2 fingers down | 2 fingers right, long |
+| space | one finger right | one finger right from dot 4 or long press of dot 4 |
+| space, expanding abbreviation | — | one finger right from dot 5 |
+| expand abbreviation | hold 5, 2 fingers right | long press of dot 1 |
+| new line | 2 fingers right | one finger left from dot 6 or long press of dots 1 5 |
+| send | 2 fingers up | 2 fingers down, long, or long press of dots 1 3 |
+| delete character | one finger left | one finger left from dot 4 or long press of dots 1 2 |
+| delete word | 2 fingers left | one finger left from dot 1 or long press of dots 1 4 |
 | undo | hold 4 5 6, one finger left | hold 6, one finger left from dot 3 |
 | redo | hold 4 5 6, one finger right | hold 6, one finger right from dot 3 |
-| capitals lock | hold 4 6, one finger right | one finger right from dot 6 |
+| capitals lock | hold 4 6, one finger right | one finger right from dot 6 or long press of dot 6 |
 | cursor back | one finger up | one finger left from dot 2 |
 | cursor forward | one finger down | one finger right from dot 2 |
 | previous character | hold 6, one finger up | — |
 | next character | hold 6, one finger down | — |
-| previous word | hold 5, one finger up | hold 1, one finger left from dot 5 or hold 4, one finger left from dot 1 |
-| next word | hold 5, one finger down | hold 1, one finger right from dot 5 or hold 4, one finger right from dot 1 |
+| previous word | hold 5, one finger up | hold 1, one finger left from dot 5 |
+| next word | hold 5, one finger down | hold 1, one finger right from dot 5 |
 | previous sentence | — | hold 1, one finger left from dot 6 |
 | next sentence | — | hold 1, one finger right from dot 6 |
 | previous line | hold 4, one finger up | hold 2, one finger left from dot 4 |
@@ -295,27 +320,35 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 | select to end | hold 4 5, 2 fingers down | — |
 | select all | hold 4, 3 fingers left | hold 4, one finger left from dot 2 |
 | mark selection start | hold 4, 2 fingers left | hold 4, one finger left from dot 3 |
-| select from mark | hold 4, 2 fingers right | hold 4, one finger right from dot 3 |
+| select from mark | hold 4, 2 fingers right | — |
+| select what the cursor went over | — | hold 4, one finger right from dot 3 |
 | cut | hold 4, 3 fingers up | hold 5, one finger left from dot 1 |
 | copy | hold 4, 3 fingers down | hold 5, one finger right from dot 1 |
 | paste | hold 4, 3 fingers right | hold 5, one finger left from dot 2 |
 | read character | hold 6, one finger right | — |
 | read character phonetically | hold 6, one finger left | — |
 | read word | hold 5, one finger right | — |
-| spell word | hold 5, one finger left | — |
-| read line | hold 4, one finger right | one finger left from dot 3 |
+| spell word | hold 5, one finger left | long press of dots 1 2 3 |
+| read word before cursor | — | hold 4, one finger left from dot 1 |
+| read word after cursor | — | hold 4, one finger right from dot 1 |
+| read line | hold 4, one finger right | — |
 | read whole field | hold 4, one finger left | hold 4, one finger right from dot 2 |
 | read up to cursor | — | hold 3, one finger left from dot 5 |
 | read from cursor | — | hold 3, one finger right from dot 5 |
+| read sentence up to cursor | — | one finger left from dot 3 |
 | read selection | — | hold 5, one finger right from dot 3 |
 | read clipboard | — | hold 5, one finger left from dot 3 |
 | delete selection or unit | — | hold 5, one finger right from dot 2 |
 | previous table | hold 4 5, one finger left | — |
-| next table | hold 4 5, one finger right | one finger right from dot 1 |
+| next table | hold 4 5, one finger right | one finger right from dot 1 or long press of dot 3 |
 | 6 or 8 dots | hold 4 5, 2 fingers right | — |
-| fix or release keyboard position | hold 4 5 6, one finger up | hold 6, one finger right from dot 1 or hold 6, one finger left from dot 1 |
+| fix or release keyboard position | hold 4 5 6, one finger up | — |
+| fix keyboard position | — | hold 6, one finger right from dot 1 |
+| release keyboard position | — | hold 6, one finger left from dot 1 |
 | change typing echo | hold 4 5 6, 2 fingers up | hold 3, one finger left from dot 6 |
-| dictation | hold 4 5 6, one finger down | 2 fingers up |
+| dictation | hold 4 5 6, one finger down | 2 fingers left, long |
+| volume up | — | long press of dots 5 6 |
+| volume down | — | long press of dots 2 3 |
 | tab | — | hold 3, one finger right from dot 4 |
 | shift tab | — | hold 3, one finger left from dot 4 |
 
@@ -325,10 +358,13 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 |---|---|---|
 | switch to editing and back | — | one finger right from dot 3 |
 | switch to emoji and back | — | one finger left from dot 5 |
-| switch keyboard | — | 2 fingers left |
-| space | — | one finger right from dot 4 or one finger right from dot 5 |
+| switch keyboard | 3 fingers down | 2 fingers up, long, or 3 fingers down |
+| hide keyboard | 2 fingers down | 2 fingers right, long |
+| space | — | one finger right from dot 4 |
+| space, expanding abbreviation | — | one finger right from dot 5 |
+| expand abbreviation | hold 5, 2 fingers right | — |
 | new line | — | one finger left from dot 6 |
-| send | — | 2 fingers right |
+| send | — | 2 fingers down, long |
 | delete character | — | one finger left from dot 4 |
 | delete word | — | one finger left from dot 1 |
 | undo | hold 4 5 6, one finger left or dots 1 3 5 6 | hold 6, one finger left from dot 3 |
@@ -338,8 +374,8 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 | cursor forward | — | one finger right from dot 2 |
 | previous character | hold 6, one finger up | — |
 | next character | hold 6, one finger down | — |
-| previous word | hold 5, one finger up | hold 1, one finger left from dot 5 or hold 4, one finger left from dot 1 or dot 1 or dots 2 3 |
-| next word | hold 5, one finger down | hold 1, one finger right from dot 5 or hold 4, one finger right from dot 1 or dot 4 or dots 5 6 |
+| previous word | hold 5, one finger up | hold 1, one finger left from dot 5 or dot 1 |
+| next word | hold 5, one finger down | hold 1, one finger right from dot 5 or dot 4 |
 | previous sentence | — | hold 1, one finger left from dot 6 or dot 2 |
 | next sentence | — | hold 1, one finger right from dot 6 or dot 5 |
 | previous line | hold 4, one finger up | hold 2, one finger left from dot 4 or dots 1 4 |
@@ -360,7 +396,8 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 | select all | hold 4, 3 fingers left or dot 1 | hold 4, one finger left from dot 2 or dots 2 3 5 6 |
 | clear selection | dots 2 3 4 | — |
 | mark selection start | hold 4, 2 fingers left or dots 1 3 4 | hold 4, one finger left from dot 3 or dots 1 4 5 |
-| select from mark | hold 4, 2 fingers right or dots 1 2 5 | hold 4, one finger right from dot 3 or dots 1 2 4 |
+| select from mark | hold 4, 2 fingers right or dots 1 2 5 | — |
+| select what the cursor went over | — | hold 4, one finger right from dot 3 or dots 1 2 4 |
 | cut | hold 4, 3 fingers up or dots 1 3 4 6 | hold 5, one finger left from dot 1 or dots 1 2 3 4 |
 | copy | hold 4, 3 fingers down or dots 1 4 | hold 5, one finger right from dot 1 or dots 1 2 3 5 |
 | paste | hold 4, 3 fingers right or dots 1 2 3 6 | hold 5, one finger left from dot 2 or dots 1 2 3 6 |
@@ -368,12 +405,16 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 | read character phonetically | hold 6, one finger left | — |
 | read word | hold 5, one finger right | — |
 | spell word | hold 5, one finger left | — |
-| read line | hold 4, one finger right | one finger left from dot 3 |
+| read word before cursor | — | hold 4, one finger left from dot 1 or dots 2 3 |
+| read word after cursor | — | hold 4, one finger right from dot 1 or dots 5 6 |
+| read line | hold 4, one finger right | — |
 | read whole field | hold 4, one finger left | hold 4, one finger right from dot 2 or dots 1 2 4 5 |
 | read up to cursor | — | hold 3, one finger left from dot 5 or dots 1 2 3 |
 | read from cursor | — | hold 3, one finger right from dot 5 or dots 4 5 6 |
+| read sentence up to cursor | — | one finger left from dot 3 |
 | read selection | 2 fingers up | hold 5, one finger right from dot 3 or dots 1 5 |
 | read clipboard | — | hold 5, one finger left from dot 3 or dots 2 4 |
+| say date and time | — | dots 1 6 |
 | previous unit | one finger left | — |
 | next unit | one finger right | — |
 | previous unit type | one finger up | — |
@@ -384,9 +425,11 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 | previous table | hold 4 5, one finger left | — |
 | next table | hold 4 5, one finger right | one finger right from dot 1 |
 | 6 or 8 dots | hold 4 5, 2 fingers right | — |
-| fix or release keyboard position | hold 4 5 6, one finger up | hold 6, one finger right from dot 1 or hold 6, one finger left from dot 1 |
+| fix or release keyboard position | hold 4 5 6, one finger up | — |
+| fix keyboard position | — | hold 6, one finger right from dot 1 |
+| release keyboard position | — | hold 6, one finger left from dot 1 |
 | change typing echo | hold 4 5 6, 2 fingers up | hold 3, one finger left from dot 6 |
-| dictation | hold 4 5 6, one finger down | 2 fingers up |
+| dictation | hold 4 5 6, one finger down | 2 fingers left, long |
 | tab | — | hold 3, one finger right from dot 4 or dots 1 2 3 4 5 |
 | shift tab | — | hold 3, one finger left from dot 4 or dots 1 2 4 5 6 |
 
@@ -394,6 +437,7 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 
 | Command | Like TalkBack (default) | Like ABK |
 |---|---|---|
+| hide keyboard | 2 fingers down | 2 fingers down |
 | previous misspelling | one finger up | one finger up |
 | next misspelling | one finger down | one finger down |
 | previous suggestion | one finger left | one finger left |
@@ -408,6 +452,7 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 
 | Command | Like TalkBack (default) | Like ABK |
 |---|---|---|
+| hide keyboard | 2 fingers down | 2 fingers down |
 | up arrow | one finger up | one finger up |
 | down arrow | one finger down | one finger down |
 | left arrow | one finger left | one finger left |
@@ -439,6 +484,7 @@ In emoji mode, chords type the search, which is matched against each emoji's nam
 | Command | Like TalkBack (default) | Like ABK |
 |---|---|---|
 | switch to emoji and back | — | one finger left from dot 5 |
+| hide keyboard | 2 fingers down | 2 fingers down |
 | previous emoji | one finger left | one finger left |
 | next emoji | one finger right | one finger right |
 | previous emoji category | one finger up | one finger up |
